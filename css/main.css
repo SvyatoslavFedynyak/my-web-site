@@ -1,3 +1,12 @@
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+/*Navbar*/
 .navbar{
     background:#F97300;
    }
@@ -18,17 +27,20 @@
    .navbar-toggler{
      background:#fff !important;
    }
-   .header{
-    background-image: url('../images/headerback.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-   }
-   .overlay{
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(244, 244, 244, 0.79);
-   }
+
+    /*Header*/
+    .header{
+      position: relative;
+      background-image: url('../images/headerback.jpg');
+    
+      background-size: cover;
+      background-position: center;
+    }
+    .overlay{
+      position: absolute;
+      min-height: 100%;
+      min-width: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(244, 244, 244, 0.79);
+    }
