@@ -44,7 +44,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	min-width: 100%;
 	left: 0;
 	top: 0;
-	background: rgba(244, 244, 244, 0.79);
+	background: rgba(244, 244, 244, 0.7);
 }
 .description{
     position: absolute;
